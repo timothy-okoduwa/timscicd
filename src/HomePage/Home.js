@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// import { FaFacebookF, FaGithub, FaLinkedin } from "react-icons/fa";
-// import { AiFillInstagram, AiFillTwitterCircle,  AiOutlineWhatsApp } from "react-icons/ai";
+
 import Title from "../Title";
 
 const Home = () => {
@@ -22,8 +21,7 @@ const Home = () => {
           <Myname>
             <br />
             <Text2>
-              <Title number="01" title="Home" />
-              <p>Hey, i'm</p>
+            
               <br />
               <br />
               <br />
@@ -82,18 +80,20 @@ const Left = styled.div`
 `;
 
 const Right = styled.div`
-  width: 50%;
-  height: 100%;
-  background-image: url("/images/timothy.JPG");
-  background-repeat: no-repeat;
+  width:50%;
+height: 100%;
+
+  background-image: url('/images/Timothy2.JPG');
+  /* background-repeat: no-repeat; */
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   position: fixed;
   right: 0;
   z-index: -1;
   @media screen and (max-width: 768px) {
     width: 100vw;
     position: relative;
+      background-repeat: no-repeat;
   }
 `;
 

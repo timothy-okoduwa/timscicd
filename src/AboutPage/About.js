@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Title from "../Title";
-
+import tt from './Timothy.JPG'
 const About = () => {
   return (
     <Container id='About'>
@@ -30,7 +30,7 @@ const About = () => {
           </Text>
           <Sign>Timothy Okoduwa</Sign>
         </Right>
-        <Left src="/images/about.jpg" />
+        <Left src={tt}/>
       </Wrapper>
       <Rest>
         {/* <Thetwo> */}
