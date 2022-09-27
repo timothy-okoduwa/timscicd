@@ -4,7 +4,9 @@ import Title from "../Title";
 import Testimonies from "./Testimonies";
 import a from './herro.svg'
 import p from './headimage.png'
-
+import e from './EKOSE.png'
+import w from './webbb.png'
+import f from './DashBoard.png'
 const Portfolio = () => {
   return (
     <Container id='Portfolio'>
@@ -117,6 +119,33 @@ const Portfolio = () => {
         <Cover className="cover">
           <Span className="span">Pirobi-(done)</Span>
           <A href="https://pirobi.netlify.app/">
+            <P className="p">Let's Take a look😉</P>
+          </A>
+        </Cover>
+        </Pro>
+        <Pro>
+        <Img src={w} />
+        <Cover className="cover">
+          <Span className="span">Webinaarr-(done)</Span>
+          <A href="https://webinaarr.netlify.app/">
+            <P className="p">Let's Take a look😉</P>
+          </A>
+        </Cover>
+        </Pro>
+        <Pro>
+        <Img src={e} />
+        <Cover className="cover">
+          <Span className="span">Ekose-(done)</Span>
+          <A href="https://ekose-rx.netlify.app/">
+            <P className="p">Let's Take a look😉</P>
+          </A>
+        </Cover>
+        </Pro>
+        <Pro>
+        <Img src={f} />
+        <Cover className="cover">
+          <Span className="span">DashBoard-(in Progress)</Span>
+          <A href="https://ekose-dashboard.netlify.app/">
             <P className="p">Let's Take a look😉</P>
           </A>
         </Cover>
