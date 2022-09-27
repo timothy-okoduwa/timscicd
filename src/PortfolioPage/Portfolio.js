@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Title from "../Title";
 import Testimonies from "./Testimonies";
+import a from './herro.svg'
+import p from './headimage.png'
 
 const Portfolio = () => {
   return (
@@ -102,22 +104,22 @@ const Portfolio = () => {
           </Cover>
         </Pro>
         <Pro>
-          <Img src="/images/11.png" />
-          <Cover className="cover">
-            <Span className="span">Branding</Span>
-            <A href="https://google.com">
-              <P className="p">Let's Take a look😉</P>
-            </A>
-          </Cover>
+        <Img src={a} />
+        <Cover className="cover">
+          <Span className="span">Buidle-(done)</Span>
+          <A href="https://buidle.io/">
+            <P className="p">Let's Take a look😉</P>
+          </A>
+        </Cover>
         </Pro>
         <Pro>
-          <Img src="/images/12.png" />
-          <Cover className="cover">
-            <Span className="span">Branding</Span>
-            <A href="https://google.com">
-              <P className="p">Let's Take a look😉</P>
-            </A>
-          </Cover>
+        <Img src={p} />
+        <Cover className="cover">
+          <Span className="span">Pirobi-(done)</Span>
+          <A href="https://pirobi.netlify.app/">
+            <P className="p">Let's Take a look😉</P>
+          </A>
+        </Cover>
         </Pro>
       </Projects>
       <Testimonies />
