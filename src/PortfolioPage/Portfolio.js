@@ -105,33 +105,8 @@ const Portfolio = () => {
             </A>
           </Cover>
         </Pro>
-        <Pro>
-        <Img src={a} />
-        <Cover className="cover">
-          <Span className="span">Buidle-(done)</Span>
-          <A href="https://buidle.io/">
-            <P className="p">Let's Take a look😉</P>
-          </A>
-        </Cover>
-        </Pro>
-        <Pro>
-        <Img src={p} />
-        <Cover className="cover">
-          <Span className="span">Pirobi-(done)</Span>
-          <A href="https://pirobi.netlify.app/">
-            <P className="p">Let's Take a look😉</P>
-          </A>
-        </Cover>
-        </Pro>
-        <Pro>
-        <Img src={w} />
-        <Cover className="cover">
-          <Span className="span">Webinaarr-(done)</Span>
-          <A href="https://webinaarr.netlify.app/">
-            <P className="p">Let's Take a look😉</P>
-          </A>
-        </Cover>
-        </Pro>
+    
+    
         <Pro>
         <Img src={e} />
         <Cover className="cover">
